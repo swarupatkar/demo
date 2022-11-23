@@ -51,8 +51,14 @@ public class RegistrationPageElements extends WebCommons{
 	@FindBy(xpath="//input[@value='Register']")
 	public WebElement registerButton;
 	
+	@FindBy(xpath="//input[@value='Register']")
+	public WebElement registerButton111111;
+	
+	
+	
 	@FindBy(xpath="//span[@class='error']")
 	public List<WebElement> errors;
+	
 	
 	By registrationSuccess = By.xpath("//h1[@class='title' and contains(text(),'Welcome')]");
 
